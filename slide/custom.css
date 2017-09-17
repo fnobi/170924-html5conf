@@ -1,0 +1,42 @@
+a {
+    color: inherit;
+}
+
+em {
+    font-weight: bold;
+}
+
+strong {
+    font-weight: bold;
+}
+
+body {
+    background-color: #444;
+    color: #fff;
+}
+
+h1, h2, h3, h4 {
+    color: #ccc;
+}
+h1 span,
+h2 span,
+h3 span {
+    display: inline-block;
+}
+
+hr {
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    height: 1em;
+}
+
+blockquote {
+    border-left: solid 0.3vw white;
+    padding-left: 0.5em;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+code {
+    background-color: rgba(0, 0, 0, 0.5);
+}
