@@ -1,3 +1,8 @@
+body {
+    background-color: #333;
+    color: #fff;
+}
+
 a {
     color: inherit;
 }
@@ -10,18 +15,18 @@ strong {
     font-weight: bold;
 }
 
-body {
-    background-color: #444;
-    color: #fff;
-}
-
-h1, h2, h3, h4 {
-    color: #ccc;
-}
 h1 span,
 h2 span,
-h3 span {
+h3 span,
+h4 span {
     display: inline-block;
+}
+
+section h1 {
+    font-size: 8vw;
+}
+section h1 footer {
+    font-size: 50%;
 }
 
 hr {
@@ -39,4 +44,49 @@ blockquote {
 
 code {
     background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+
+ul,
+ul li {
+    overflow: hidden;
+}
+
+section {
+    background-size: cover;
+    background-position: center;
+}
+
+section:nth-child(4) {
+    background-image: url('img/share-gacha.jpg');
+}
+section:nth-child(5) {
+    background-image: url('img/final-flash.jpg');
+}
+section:nth-child(8):before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 5vw;
+    left: 5vw;
+    right: 5vw;
+    bottom: 5vw;
+    background-image: url('img/tweet.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+section:nth-child(9) {
+    background-image: url('img/umapuyo.png');
+    color: #333;
+}
+section:nth-child(9):before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: rgba(255, 255, 255, 0.5);
 }
