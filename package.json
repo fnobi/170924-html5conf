@@ -6,6 +6,6 @@
     "start": "sector-slide --server README.md"
   },
   "devDependencies": {
-    "sector-slide": "^1.2.0"
+    "sector-slide": "^1.2.2"
   }
 }
