@@ -1783,9 +1783,9 @@ safe-buffer@^5.0.1, safe-buffer@~5.1.0, safe-buffer@~5.1.1:
   version "5.1.1"
   resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.1.1.tgz#893312af69b2123def71f57889001671eeb2c853"
 
-sector-slide@^1.2.2:
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/sector-slide/-/sector-slide-1.2.2.tgz#2689c4402f966563ef9b248124e09202668dd33e"
+sector-slide@^1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/sector-slide/-/sector-slide-1.3.0.tgz#e5ab5f617b4e80362cdb45e1bff8135c12394c4d"
   dependencies:
     browser-sync "^2.18.8"
     chokidar "^1.6.1"
